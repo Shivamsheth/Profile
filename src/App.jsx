@@ -98,7 +98,7 @@ const Hero = () => {
               <div className="hero-wrapper">
 
                   <div className="hero-image">
-                      <img src="../public/201983053.jpg" alt="Shivam Sheth" />
+                      <img src="./201983053.jpg" alt="Shivam Sheth" />
                   </div>
                   <div className="hero-text">
                       <p className="hero-greeting text-animate">Hello, I'm</p>
@@ -267,7 +267,7 @@ const Resume = () => {
                         Download my resume to learn more about my education, experience, and technical skills.
                     </p>
                     <a
-                        href="../public/resume.pdf"
+                        href="./resume.pdf"
                         className="btn btn-primary btn-animated"
                         target="_blank"
                         rel="noopener noreferrer"
