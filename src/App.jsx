@@ -1,5 +1,7 @@
 import React, { useEffect, useMemo } from 'react';
 import './App.css';
+import img from './201983053.jpg';
+import pdf from './resume.pdf';
 
 const Navbar = () => {
     useEffect(() => {
@@ -98,7 +100,7 @@ const Hero = () => {
               <div className="hero-wrapper">
 
                   <div className="hero-image">
-                      <img src="./201983053.jpg" alt="Shivam Sheth" />
+                      <img src={img} alt="Shivam Sheth" />
                   </div>
                   <div className="hero-text">
                       <p className="hero-greeting text-animate">Hello, I'm</p>
@@ -267,7 +269,7 @@ const Resume = () => {
                         Download my resume to learn more about my education, experience, and technical skills.
                     </p>
                     <a
-                        href="./resume.pdf"
+                        href={pdf}
                         className="btn btn-primary btn-animated"
                         target="_blank"
                         rel="noopener noreferrer"
